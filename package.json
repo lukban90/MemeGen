@@ -7,6 +7,10 @@
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.1"
   },
+  "engines": {
+    "npm": "6.9.0",
+    "node": "12.4.0"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -14,7 +18,8 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "extends": "react-app",
+    "parser": "babel-eslint"
   },
   "browserslist": {
     "production": [
